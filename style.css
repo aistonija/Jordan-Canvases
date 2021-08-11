@@ -116,7 +116,7 @@ body {
 }
 
 .product-img {
-  transition: transform 500ms;
+  transition: all 500ms;
   width: 100%;
 }
 
@@ -134,7 +134,7 @@ body {
   right: 0;
   visibility: hidden;
   opacity: 0;
-  transition: opacity 500ms;
+  transition: all 1s;
 }
 
 .product-img-container:hover .product-quick-view {
